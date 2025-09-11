@@ -46,6 +46,6 @@ print(f'shop_list: {shop_list}')
 a[2] = 'c'
 print(f'a: {a}')
 
-# list 삭제
+# list 값삭제
 del a[1]
 print(f'a: {a}')

@@ -10,9 +10,8 @@ print(result)
 result = 7//2 #나누기 결과의 소수점 이하 버림
 print(result)
 
-result = 7%2 #나머지
-print(result)
-
 result = 7**2 #제곱
 print(result)
 
+result = 7%2 #나머지
+print(result)
