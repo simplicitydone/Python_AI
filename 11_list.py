@@ -30,3 +30,22 @@ print(f'a[last]: {len(a)-1}')
 # 파이썬에서 사용되는 방식, 0보다 뒤로가면 맨 뒤로 이동된다는 개념
 print(f'a[last]: {a[-1]}')
 
+# 리스트 정렬 (sort)
+shop_list.sort()  # 오름차순
+print(f'shop_list: {shop_list}')
+
+shop_list.sort(reverse=True)   #내림차순
+print(f'shop_list: {shop_list}')
+
+# sorted는 원본의 리스트를 정렬한 값을 새로운 리스트로 반환
+new_list = sorted(shop_list)
+print(f'new_list: {new_list}')
+print(f'shop_list: {shop_list}')
+
+# a의 2번인덱스에 c를 넣는다.(교체)
+a[2] = 'c'
+print(f'a: {a}')
+
+# list 삭제
+del a[1]
+print(f'a: {a}')
