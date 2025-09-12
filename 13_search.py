@@ -21,7 +21,7 @@ print(f'G는 어디?: {a.index('G',7)}')
 
 # 모든 3을 찾아라
 b = [3,4,1,2,3,4,5,6,1,3,2]
-idx = 0                                 # idx값 초기화
+idx = 0                                 # idx값 list 처음값으로 초기화
 
 # 방법1 while문(단 error 발생)            # 3값의 index를 모두 찾고자 함
 # while True:                           # True 동안 실행(무한 루프)
